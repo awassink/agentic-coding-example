@@ -5,7 +5,6 @@ import lombok.extern.slf4j.Slf4j;
 import nl.quintor.workshop.booking.domain.port.outbound.CustomerManager;
 import nl.quintor.workshop.booking.domain.port.outbound.GetOrCreateCustomerRequest;
 import nl.quintor.workshop.booking.domain.port.outbound.GetOrCreateCustomerResponse;
-import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
 
 @Slf4j
